@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+  <meta http-equiv="CONTENT-TYPE" content="text/html; charset=UTF-8">
+  <title>Form Pemesanan</title>
+  <h1>
+    FORM PEMESANAN WARLICK STORE
+  </h1>
+       <style>
+       body {
+         font family:roman;
+         background-color:#k054k054k054;
+         margin:0;
+         padding:20px;
+       } 
+       form {
+         background:kkk;
+         max-width:400px;
+         margin:auto;
+         padding:20px;
+         border-radius:10px;
+         box shadow:00 20px rgba(0.0.0.1);
+       }
+       h3 {
+         text-align:centar;
+       }
+       label {
+          fond-weight:bold;
+       }
+       input, select, textarea, button {
+          width:100%;
+          padding:10px
+          margin-top:5px;
+          margin-bottom:15px;
+          border:1px solid #ccc
+          border-radius:5px;
+       }
+       button {
+          background-color: #C05673;
+          color:white;
+          cursor:pointer;
+       }
+       button:hover {
+          background-color:#black;
+       </style>
+</head>
+<body>        
+    <form action="#" method="post">
+    <h2>Formulir Pemesanan</h2>
+
+    <label for="nama">Nama Lengkap:</label>
+    <input type="text" id="nama" name="nama" required>
+
+    <label for="email">Email:</label>
+    <input type="email" id="email" name="email" required>
+
+    <label for="telepon">Nomor Telepon:</label>
+    <input type="tel" id="telepon" name="telepon" required>
+
+    <label for="alamat">Alamat Pengiriman:</label>
+    <textarea id="alamat" name="alamat" rows="3" required></textarea>
+
+    <label for="makanan">Pilih makanan:</label>
+    <select id="makanan" name="makanan" required>
+      <option value="">-- Pilih makanan --</option>
+      <option value="mie ayam">mie ayam</option>
+      <option value="baslub">baslub</option>
+      <option value="mie jebew">mie jebew</option>
+      <option value="seblak">seblak</option>
+      <option value="baso">baso</option>
+    </select>
+
+    <label for="jumlah">Jumlah:</label>
+    <input type="number" id="jumlah" name="jumlah" required>
+
+    <label for="catatan">Catatan Tambahan:</label>
+    <textarea id="catatan" name="catatan" rows="2"></textarea>
+
+    
+    <button type="submit"><a href="praktikum2.o.html">kirim pesanan</a></button>
+    <button type="reset">Batal</button>
+  </form>  
+ 
+</body>
+</html>
