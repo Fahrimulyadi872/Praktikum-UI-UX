@@ -1,0 +1,60 @@
+body {
+  background-color: blanchedalmond;
+  color: black;
+}
+
+h1 {
+  text-align: center;
+}
+
+p {
+  text-align: justify;
+}
+
+.img {
+  border: 50px solid #black;
+  border-radius: 40px;
+  display: block;
+  width: fit-content;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.foto {
+  background-color: black;
+  display: block;
+  padding-left: 20px;
+  
+  & img {
+    width: 150px;
+  }
+}
+
+/* .foto img {
+    width: 20px;
+} */
+
+.promo {
+    text-align: center;
+    color: brown;
+}
+
+.harga {
+    display: block;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: orangered;
+    padding: 30px 10px 30px;
+    color: black;
+    border: 2px dotted black;
+    border-radius: 15px;
+
+    & p {
+        text-align: center;
+        font-weight: bold;
+    }
+}
+
+
+
